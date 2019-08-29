@@ -1,0 +1,106 @@
+/* PIZZA CATALOG SECTION */
+
+.pizza-list-section {
+    text-align: center;
+}
+
+.pizza-list-section h2 {
+    color: lightcoral;
+    text-decoration: underline;
+
+}
+
+hr {
+    color: lightblue;
+}
+
+/* PIZZA COMPONENT */
+
+.pizza {
+    margin: 20px auto;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #666;
+    -moz-box-shadow: 2px 2px 2px #666;
+    -webkit-box-shadow: 2px 2px 2px #666;
+   
+}
+
+.pizza-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.pizza-discount {
+    position: absolute;
+    border-radius: 5px;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    top: 10px;
+    right: 10px;
+}
+
+.pizza-name {
+    text-decoration: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pizza-description {
+    color: mediumblue;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.order-button{
+    padding: 20px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;  
+    float: left;
+    width: 30%;
+
+}
+
+.pizza-price-medium-size {
+    color: mediumblue;
+    font-size: 15px;
+}
+
+.pizza-price-big-size {
+    color: red;
+    font-size: 20px;   
+    margin-top: -10px;
+}
+
+.pizza-price {
+    float: right; 
+    text-align: left;
+    width: 60%;
+    margin-top: -15px;
+}
+
+.stock {
+    color: mediumblue;
+    font-size: 15px;
+}
+
+.clr {
+    clear: both;
+  }
+
+
+
+
